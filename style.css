@@ -1,12 +1,15 @@
-@import url('https://fonts.googleapis.com/css2?family=Aclonica&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Akshar:wght@300&display=swap');
 
 
 body{
+    height: 100vh;
     margin: 0;
-    padding:0;
-    background-color: #000;
-    color: #fff;
+  padding: 20px;
+  scroll-behavior: smooth;
+  box-sizing: border-box;
+  /* background-color: #212529; */
+  font-family: 'Akshar', sans-serif;
   }
   header{
     height: 100px;
@@ -21,19 +24,19 @@ body{
 }
 
 .logo{
-    font-family: 'Aclonica', sans-serif;
+    /* font-family: 'Aclonica', sans-serif; */
     font-size: 30px;
     padding: 50px;
     margin-left: 50px;
   }
   .logo a{
      
-    color: #fff;
+    /* color: #fff; */
     text-decoration: none;
   }
   
   .nav_bar{
-    font-family: 'Poppins', sans-serif;
+    /* font-family: 'Poppins', sans-serif; */
     font-size: 20px;
     float: right;
     list-style: none;
