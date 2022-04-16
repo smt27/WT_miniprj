@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Aclonica&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+
+
+body{
+    margin: 0;
+    padding:0;
+    background-color: #000;
+    color: #fff;
+  }
+  header{
+    height: 100px;
+    background: rgba(32, 29, 29, 0.7);
+    width: 100%;
+    position: fixed;
+    z-index: 12;
+  }
+
+.section2{
+    padding-top: 3cm;
+}
+
+.logo{
+    font-family: 'Aclonica', sans-serif;
+    font-size: 30px;
+    padding: 50px;
+    margin-left: 50px;
+  }
+  .logo a{
+     
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .nav_bar{
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    float: right;
+    list-style: none;
+  }
+  
+  .nav_bar li{
+    display: inline-block;
+  }
+  .nav_bar a{
+    padding: 15px;
+  }
+  
+  .nav_bar li a:hover{
+    background-color: #131616 ;
+    color: #fff;
+    
+    border:1px solid #000;
+    border-radius: 3px;
+    border-width: auto;
+    filter: brightness(70%);
+  }
+  
+  .table{
+      color: #fff;
+  }
+  .table td:hover{
+      background-color: #131616;
+      color: rgb(238, 215, 187);
+  }
