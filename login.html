@@ -10,10 +10,14 @@
     <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"> -->
     <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="assets\logo2.png">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 
 <body>
-    <div class="logo">
+    <div class="logo" data-aos="fade-down"
+    data-aos-easing="linear"
+    data-aos-duration="1500">
     <div class="flex justify-center mb-30">
         <div class="lg:w-216 md:w-156">
             <a href="" class="flex justify-center items-start"><img src="assets/logo.png" alt="spotify-logo"
@@ -64,6 +68,11 @@
             </div>
         </div>
     </div>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
 </body>
 
 </html>
